@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# Local TLS identity (do not commit private keys)
+runtime/
+*.pem
+*.key
+
+# Android build output
+mobile/.buildozer/
+mobile/bin/
+.gradle/
+.idea/
+.vscode/
